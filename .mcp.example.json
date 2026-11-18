@@ -1,0 +1,19 @@
+{
+  "mcpServers": {
+    "digital-twin-memory": {
+      "type": "local",
+      "command": "REPLACE_WITH_SYSTEM_PYTHON_EXECUTABLE",
+      "args": [
+        "REPLACE_WITH_ABSOLUTE_SERVER_PY_PATH"
+      ],
+      "cwd": "REPLACE_WITH_ABSOLUTE_PROJECT_DIRECTORY",
+      "env": {
+        "MEMORY_DB_PATH": ".test-data/memory.db",
+        "MEMORY_PROJECT_ID": "digital-twin-memory-test"
+      },
+      "tools": [
+        "*"
+      ]
+    }
+  }
+}

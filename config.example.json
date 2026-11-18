@@ -1,0 +1,10 @@
+{
+  "llm": {
+    "endpoint": "https://your-resource.openai.azure.com",
+    "deployment": "your-chat-deployment",
+    "api_version": "your-supported-api-version",
+    "subscription_key": "your-chat-resource-key"
+  },
+  "embedding": null,
+  "semantic_similarity_threshold": 0.35
+}
